@@ -21,3 +21,53 @@ body {
 .one > button {
     padding: 1rem;
 }
+
+.score-board {
+    width: 40rem;
+    height: 20rem;
+    border: 1.5rem solid grey;
+    background-color: black;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score > div {
+    font-size: 1.6rem;
+    margin: 0.2rem 0.5rem;
+}
+
+.score > div:nth-child(2) {
+    border: 1px solid black;
+    padding: 0.2rem 2rem;
+}
+.score > div:nth-child(4) {
+    border: 1px solid black;
+    padding: 0.2rem 2rem;
+}
+
+.btn {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.btn button {
+    padding: 0.5rem;
+    margin-left: 5px;
+}
+
+.statistic {
+    height: 200px;
+    overflow: auto;
+    font-size: 1.2rem;
+    color: black;
+}
