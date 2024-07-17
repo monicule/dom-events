@@ -20,33 +20,33 @@ let scoreGuest = 0;
 function plusOneHome() {
     scoreHome++;
     scoreHomeDOM.textContent = scoreHome;
-    statisticDOM.innerHTML = '<br><b>Home:</b> +1' + statisticDOM.innerHTML;
+    statisticDOM.innerHTML = '<br><b>Šeimininkai:</b> +1' + statisticDOM.innerHTML;
 }
 function plusTwoHome() {
     scoreHome += 2;
     scoreHomeDOM.textContent = scoreHome;
-    statisticDOM.innerHTML = '<br><b>Home:</b> +2' + statisticDOM.innerHTML;
+    statisticDOM.innerHTML = '<br><b>Šeimininkai:</b> +2' + statisticDOM.innerHTML;
 }
 function plusThreeHome() {
     scoreHome += 3;
     scoreHomeDOM.textContent = scoreHome;
-    statisticDOM.innerHTML = '<br><b>Home:</b> +3' + statisticDOM.innerHTML;
+    statisticDOM.innerHTML = '<br><b>Šeimininkai:</b> +3' + statisticDOM.innerHTML;
 }
 
 function plusOneGuest() {
     scoreGuest++;
     scoreGuestDOM.textContent = scoreGuest;
-    statisticDOM.innerHTML = '<br><b>Guest</b>: +1' + statisticDOM.innerHTML;
+    statisticDOM.innerHTML = '<br><b>Svečiai</b>: +1' + statisticDOM.innerHTML;
 }
 function plusTwoGuest() {
     scoreGuest += 2;
     scoreGuestDOM.textContent = scoreGuest;
-    statisticDOM.innerHTML = '<br><b>Guest:</b> +2' + statisticDOM.innerHTML;
+    statisticDOM.innerHTML = '<br><b>Svečiai:</b> +2' + statisticDOM.innerHTML;
 }
 function plusThreeGuest() {
     scoreGuest += 3;
     scoreGuestDOM.textContent = scoreGuest;
-    statisticDOM.innerHTML = '<br><b>Guest:</b> +3' + statisticDOM.innerHTML;
+    statisticDOM.innerHTML = '<br><b>Svečiai:</b> +3' + statisticDOM.innerHTML;
 }
 
 
